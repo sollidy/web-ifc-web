@@ -5,6 +5,10 @@
   "description": "Use for converting",
   "module": "./web-ifc-api.js",
   "main": "./web-ifc-api-node.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sollidy/web-ifc-web"
+  },
   "exports": {
     ".": {
       "require": "./web-ifc-api-node.js",
