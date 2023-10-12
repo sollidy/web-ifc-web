@@ -1,6 +1,6 @@
 {
   "name": "@sollidy/web-ifc",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "sollidy",
   "description": "Use for converting",
   "module": "./web-ifc-api.js",
