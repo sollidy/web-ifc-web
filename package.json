@@ -1,0 +1,28 @@
+{
+  "name": "web-ifc-big",
+  "version": "0.0.1",
+  "author": "sollidy",
+  "description": "Use for converting",
+  "module": "./web-ifc-api.js",
+  "main": "./web-ifc-api-node.js",
+  "exports": {
+    ".": {
+      "require": "./web-ifc-api-node.js",
+      "node": "./web-ifc-api-node.js",
+      "import": "./web-ifc-api.js",
+      "browser": "./web-ifc-api.js"
+    }
+  },
+  "keywords": [
+    "ifc"
+  ],
+  "engines": {
+    "node": ">=16"
+  },
+  "browser": {
+    "./index.js": "./index.browser.js"
+  },
+  "bin": "./bin/nanoid.js",
+  "sideEffects": false,
+  "types": "./index.d.ts"
+}
