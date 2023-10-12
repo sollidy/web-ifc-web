@@ -19,10 +19,20 @@
   "engines": {
     "node": ">=16"
   },
+  "files": [
+    "web-ifc.wasm",
+    "web-ifc-node.wasm",
+    "web-ifc-api-node.js",
+    "web-ifc-api-node.d.ts",
+    "web-ifc-api.js",
+    "web-ifc-api.d.ts",
+    "ifc-schema.d.ts",
+    "helpers/properties.d.ts",
+    "helpers/log.d.ts"
+  ],
   "browser": {
-    "./index.js": "./index.browser.js"
-  },
-  "bin": "./bin/nanoid.js",
-  "sideEffects": false,
-  "types": "./index.d.ts"
+    "crypto": false,
+    "path": false,
+    "fs": false
+  }
 }
